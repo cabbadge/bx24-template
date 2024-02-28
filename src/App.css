@@ -1,0 +1,63 @@
+.menu {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu a {
+  color: #545c6a;
+  text-decoration: none;
+  padding: 10px 15px;
+  position: relative; /* Для абсолютного позиционирования псевдоэлементов */
+  font-weight: 500; /* Немного утолщаем шрифт */
+  letter-spacing: 0.05em; /* Добавляем буквенное расстояние для улучшения читаемости */
+}
+
+.menu a:hover {
+  color: #000000; /* Светлый цвет при наведении */
+}
+
+/* Создаем эффект "подчеркивания" при наведении */
+.menu a::before, .menu a::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  width: 0;
+  height: 2px;
+  background-color: #000000; /* Цвет подчеркивания */
+  transition: width 0.3s ease-in-out;
+}
+
+.menu a::before {
+  left: 50%;
+}
+
+.menu a::after {
+  right: 50%;
+}
+
+/* Расширяем подчеркивание от центра к краям при наведении */
+.menu a:hover::before, .menu a:hover::after {
+  width: 50%;
+  left: 0;
+  right: 0;
+}
+
+/* Добавляем эффект "всплывания" для ссылок при наведении */
+.menu a:hover {
+  transform: translateY(-3px);
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+/* Стили для активного элемента меню */
+.menu a.active {
+  color: #545c6a; /* Темный цвет для активного элемента */
+  font-weight: 700; /* Делаем шрифт более жирным */
+}
+
+.menu a.active::before, .menu a.active::after {
+  width: 50%; /* Подчеркивание для активного элемента будет полностью видно */
+  left: 0;
+  right: 0;
+}

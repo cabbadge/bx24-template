@@ -11,7 +11,7 @@ export const AddTask = () => {
 
     }
   return (
-    <div><button onClick={add}>кнопка для регистрации</button>
+    <div><button onClick={add}>Кнопка для регистрации</button>
     </div>
   )
 }
