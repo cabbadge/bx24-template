@@ -1,11 +1,11 @@
 import React from "react";
 import { AddTask } from "./AddTask";
-import Menu from "./Menu";
-import FormAdd from "./menu/FormAdd";
+import Demo from "./menu/Header";
+import FormAdd from "./form/FormAdd";
 const App = () => {
   return (
     <div>
-      <Menu />
+      <Demo />
       <FormAdd />
       {/* <h1>Добавление задачи</h1>
       <AddTask /> */}

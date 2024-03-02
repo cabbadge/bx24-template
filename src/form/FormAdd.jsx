@@ -34,12 +34,13 @@ const FormAdd = () => (
     {...formItemLayout}
     variant="filled"
     style={{
+      marginTop:'50px',
       maxWidth: 600,
     }}
   >
     <Form.Item
-      label="Input"
-      name="Input"
+      label="Названия"
+      name="Title"
       rules={[
         {
           required: true,
@@ -51,8 +52,8 @@ const FormAdd = () => (
     </Form.Item>
 
     <Form.Item
-      label="InputNumber"
-      name="InputNumber"
+      label="ID"
+      name="ID"
       rules={[
         {
           required: true,
@@ -68,8 +69,8 @@ const FormAdd = () => (
     </Form.Item>
 
     <Form.Item
-      label="TextArea"
-      name="TextArea"
+      label="Описания"
+      name="Description"
       rules={[
         {
           required: true,
@@ -102,6 +103,7 @@ const FormAdd = () => (
           message: 'Please input!',
         },
       ]}
+      
     >
       <Select />
     </Form.Item>
