@@ -1,5 +1,5 @@
-import { BX24 } from 'bx24';
-import { getQueryString } from './utils';
+import { BX24 } from "bx24";
+import { getQueryString } from "./utils";
 const bx24 = new BX24(window, parent);
 window.bx24 = bx24;
 
@@ -7,7 +7,7 @@ export default new (class BX24API {
   constructor() {
     this.auth();
     const urlParams = new URLSearchParams(window.location.search);
-    this.baseUrl = `https://${urlParams.get('DOMAIN')}`;
+    this.baseUrl = `https://${urlParams.get("DOMAIN")}`;
   }
 
   async auth() {
@@ -23,7 +23,7 @@ export default new (class BX24API {
     const queryString = getQueryString(params);
 
     const result = await fetch(this.baseUrl + `/rest/${name}?`, {
-      method: 'POST',
+      method: "POST",
       body: queryString,
     });
 

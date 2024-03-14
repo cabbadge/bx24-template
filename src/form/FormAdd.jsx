@@ -10,6 +10,17 @@ import {
   Select,
   TreeSelect,
 } from 'antd';
+import { AddTask } from '../AddTask';
+const options = [];
+for (let i = 1; i < 4; i++) {
+  options.push({
+    label: i.toString() + i,
+    value: i.toString() + i,
+  });
+}
+const handleChange = (value) => {
+  console.log(`selected ${value}`);
+};
 const { RangePicker } = DatePicker;
 const formItemLayout = {
   labelCol: {
@@ -43,7 +54,7 @@ const FormAdd = () => (
       name="Title"
       rules={[
         {
-          required: true,
+          required: false,
           message: 'Please input!',
         },
       ]}
@@ -56,7 +67,7 @@ const FormAdd = () => (
       name="ID"
       rules={[
         {
-          required: true,
+          required: false,
           message: 'Please input!',
         },
       ]}
@@ -73,7 +84,7 @@ const FormAdd = () => (
       name="Description"
       rules={[
         {
-          required: true,
+          required: false,
           message: 'Please input!',
         },
       ]}
@@ -86,7 +97,7 @@ const FormAdd = () => (
       name="Mentions"
       rules={[
         {
-          required: true,
+          required: false,
           message: 'Please input!',
         },
       ]}
@@ -99,13 +110,23 @@ const FormAdd = () => (
       name="Select"
       rules={[
         {
-          required: true,
+          required: false,
           message: 'Please input!',
         },
       ]}
       
     >
-      <Select />
+       <Select
+      mode="multiple"
+      allowClear
+      style={{
+        width: '100%',
+      }}
+      placeholder="Please select"
+      defaultValue={['11', '22']}
+      onChange={handleChange}
+      options={options}
+    />
     </Form.Item>
 
     <Form.Item
@@ -113,7 +134,7 @@ const FormAdd = () => (
       name="Cascader"
       rules={[
         {
-          required: true,
+          required: false,
           message: 'Please input!',
         },
       ]}
@@ -126,7 +147,7 @@ const FormAdd = () => (
       name="TreeSelect"
       rules={[
         {
-          required: true,
+          required: false,
           message: 'Please input!',
         },
       ]}
@@ -139,7 +160,7 @@ const FormAdd = () => (
       name="DatePicker"
       rules={[
         {
-          required: true,
+          required: false,
           message: 'Please input!',
         },
       ]}
@@ -152,7 +173,7 @@ const FormAdd = () => (
       name="RangePicker"
       rules={[
         {
-          required: true,
+          required: false,
           message: 'Please input!',
         },
       ]}
