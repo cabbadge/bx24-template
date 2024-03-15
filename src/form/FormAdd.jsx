@@ -1,196 +1,136 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { PlusOutlined } from '@ant-design/icons';
+import BX24API from '../bx24';
 import {
   Button,
   Cascader,
+  Checkbox,
+  ColorPicker,
   DatePicker,
   Form,
   Input,
   InputNumber,
-  Mentions,
+  Radio,
   Select,
+  Slider,
+  Switch,
   TreeSelect,
+  Upload,
 } from 'antd';
-import { AddTask } from '../AddTask';
-const options = [];
-for (let i = 1; i < 4; i++) {
-  options.push({
-    label: i.toString() + i,
-    value: i.toString() + i,
-  });
-}
-const handleChange = (value) => {
-  console.log(`selected ${value}`);
-};
 const { RangePicker } = DatePicker;
-const formItemLayout = {
-  labelCol: {
-    xs: {
-      span: 24,
-    },
-    sm: {
-      span: 6,
-    },
-  },
-  wrapperCol: {
-    xs: {
-      span: 24,
-    },
-    sm: {
-      span: 14,
-    },
-  },
+const { TextArea } = Input;
+const normFile = (e) => {
+  console.log(e);
+
+  if (Array.isArray(e)) {
+    return e;
+  }
+  return e?.fileList;
 };
-const FormAdd = () => (
-  <Form
-    {...formItemLayout}
-    variant="filled"
-    style={{
-      marginTop:'50px',
-      maxWidth: 600,
-    }}
-  >
-    <Form.Item
-      label="Названия"
-      name="Title"
-      rules={[
-        {
-          required: false,
-          message: 'Please input!',
-        },
-      ]}
-    >
-      <Input />
-    </Form.Item>
+const FormAdd = () => {
+  const [detailText, setDetailText] = useState('');
+  const [detailPicture, setDetailPicture] = useState('');
 
-    <Form.Item
-      label="ID"
-      name="ID"
-      rules={[
-        {
-          required: false,
-          message: 'Please input!',
-        },
-      ]}
-    >
-      <InputNumber
-        style={{
-          width: '100%',
-        }}
-      />
-    </Form.Item>
 
-    <Form.Item
-      label="Описания"
-      name="Description"
-      rules={[
-        {
-          required: false,
-          message: 'Please input!',
-        },
-      ]}
-    >
-      <Input.TextArea />
-    </Form.Item>
+  const handleSubmit = async () => {
+    var params = {
+      'IBLOCK_TYPE_ID': 'lists',
+      'IBLOCK_ID': '335',
+      'ELEMENT_CODE': 'element_1',
+      'FIELDS': {
+        'NAME': 'task for test',
+        'DETAIL_TEXT': detailText,
+        "PROPERTY_1411": detailPicture,
+      }
+    };
 
-    <Form.Item
-      label="Mentions"
-      name="Mentions"
-      rules={[
-        {
-          required: false,
-          message: 'Please input!',
-        },
-      ]}
-    >
-      <Mentions />
-    </Form.Item>
-
-    <Form.Item
-      label="Select"
-      name="Select"
-      rules={[
-        {
-          required: false,
-          message: 'Please input!',
-        },
-      ]}
+    const result = await BX24API.callMethod('lists.element.add', params);
+    console.log(result);
+  };
+  return (
+    <>
       
-    >
-       <Select
-      mode="multiple"
-      allowClear
-      style={{
-        width: '100%',
-      }}
-      placeholder="Please select"
-      defaultValue={['11', '22']}
-      onChange={handleChange}
-      options={options}
-    />
-    </Form.Item>
+      <Form
+        labelCol={{
+          span: 4,
+        }}
+        wrapperCol={{
+          span: 14,
+        }}
+        layout="horizontal"
+        onFinish={handleSubmit}
+        style={{
+          maxWidth: 600,
+        }}
+      >
+        <Form.Item label="Checkbox" name="disabled" valuePropName="checked">
+          <Checkbox>Checkbox</Checkbox>
+        </Form.Item>
+      
+        <Form.Item label="Input">
+          <Input />
+        </Form.Item>
+        <Form.Item label="Select">
+          <Select>
+            <Select.Option value="demo">Demo</Select.Option>
+          </Select>
+        </Form.Item>
+        
+        <Form.Item label="DatePicker">
+          <DatePicker />
+        </Form.Item>
+        <Form.Item label="RangePicker">
+          <RangePicker />
+        </Form.Item>
+        <Form.Item label="InputNumber">
+          <InputNumber />
+        </Form.Item>
+        <Form.Item label="TextArea">
+          <TextArea rows={4} value={detailText} onChange={e => setDetailText(e.target.value)} />
+        </Form.Item>
+        <Form.Item label="Switch" valuePropName="checked">
+          <Switch />
+        </Form.Item>
+        <Form.Item label="Upload" valuePropName="fileList" getValueFromEvent={setDetailPicture}>
+          <Upload  listType="picture-card">
+            <button
+              style={{
+                border: 0,
+                background: 'none',
+              }}
+              type="button"
+            >
+              <PlusOutlined />
+              <div
+                style={{
+                  marginTop: 8,
+                }}
+              >
+                Upload
+              </div>
+            </button>
+          </Upload>
+        </Form.Item>
 
-    <Form.Item
-      label="Cascader"
-      name="Cascader"
-      rules={[
-        {
-          required: false,
-          message: 'Please input!',
-        },
-      ]}
-    >
-      <Cascader />
-    </Form.Item>
+        {/* <Form.Item
+        name="upload"
+        label="Upload"
+        valuePropName="fileList"
+        getValueFromEvent={normFile}
+      >
+        <Upload name="logo" action="/upload.do" listType="picture">
+          <Button icon={<PlusOutlined />}>Click to upload</Button>
+        </Upload>
+      </Form.Item> */}
+        
 
-    <Form.Item
-      label="TreeSelect"
-      name="TreeSelect"
-      rules={[
-        {
-          required: false,
-          message: 'Please input!',
-        },
-      ]}
-    >
-      <TreeSelect />
-    </Form.Item>
-
-    <Form.Item
-      label="DatePicker"
-      name="DatePicker"
-      rules={[
-        {
-          required: false,
-          message: 'Please input!',
-        },
-      ]}
-    >
-      <DatePicker />
-    </Form.Item>
-
-    <Form.Item
-      label="RangePicker"
-      name="RangePicker"
-      rules={[
-        {
-          required: false,
-          message: 'Please input!',
-        },
-      ]}
-    >
-      <RangePicker />
-    </Form.Item>
-
-    <Form.Item
-      wrapperCol={{
-        offset: 6,
-        span: 16,
-      }}
-    >
+    <Form.Item wrapperCol={{ offset: 6, span: 16 }}>
       <Button type="primary" htmlType="submit">
         Submit
       </Button>
     </Form.Item>
-  </Form>
-);
-export default FormAdd;
+      </Form>
+    </>
+  );
+};
+export default () => <FormAdd />;
