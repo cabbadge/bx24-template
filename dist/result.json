@@ -1,0 +1,1297 @@
+{
+ "name": "MATR FINANCE-TT COPY",
+ "type": "private_group",
+ "id": 943092413,
+ "messages": [
+  {
+   "id": 62019,
+   "type": "message",
+   "date": "2024-03-18T06:31:41",
+   "date_unixtime": "1710721901",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "text": [
+    "12.03.2024\n\n1.\n\nЗаявка: \n \n Tel: ±79139853549 \n Телеграмм:  \n  \n Staff: OLGA \n CID: 169 \n Invoice: Olg-04-878423 \n \nSum JPY: 613000 \n CAR PAYMENT FOR: Tverdun Dmitriy\n\n2.\n\nЗаявка: \n \n Tel:  79246712442 \n Телеграмм: ",
+    {
+     "type": "mention",
+     "text": "@Motorist888"
+    },
+    " \n  \n Staff: OLGA \n CID: 263328 \n Invoice:  \n \nSum JPY: 400000 \n CAR PAYMENT FOR: Kolesnikov Evgenii\n\n3.\n\nЗаявка: \n \n Tel:  79274538790 \n Телеграмм: ",
+    {
+     "type": "mention",
+     "text": "@Ilgiz87"
+    },
+    " \n  \n Staff: VASILII \n CID: 206954 \n Invoice: VAS-04-878669 \n \nSum JPY: 1479000 \nCAR PAYMENT FOR: Bilalov ILGIZ\n\n4.\n\nЗаявка: \n \n Tel: ",
+    {
+     "type": "phone",
+     "text": "89147179546"
+    },
+    " \n Телеграмм: ",
+    {
+     "type": "mention",
+     "text": "@From_japan_with_love"
+    },
+    " \n  \n Staff: EUGENE \n CID: 313480 \n Invoice: EUG-04-878953 \n \n Sum JPY: 444000 \n CAR PAYMENT FOR: Podkorytov I\n\n5.\n\nЗаявка: \n \n Tel:  7924 272-22-85 \n Телеграмм: ",
+    {
+     "type": "mention",
+     "text": "@Avto_iz_Japan"
+    },
+    " \n  \n Staff: OLGA \n CID: 334883 \n Invoice:  \n \n Sum JPY: 300000 \n CAR PAYMENT FOR: LEBEDEV I\n\n6.\n\nЗаявка: \n \n Tel: Martov ia \n Телеграмм: ",
+    {
+     "type": "mention",
+     "text": "@ilyaMartAuto"
+    },
+    " \n  \n Staff: ANTON \n CID: 333556 \n Invoice:  \n \nSum JPY: 1647000 \nCAR PAYMENT FOR: Martov is\n\n7.\n\nЗаявка: \n \n Tel:  79206907663 \n Телеграмм:  \n  \n Staff: VIKTORIA \n CID: 432032 \n Invoice: Vik-60878021 \n \n Sum JPY: 1071000 \n CAR PAYMENT FOR: Subbotin Maksim\n\n8.\n\nЗаявка: \n \n Tel: ",
+    {
+     "type": "phone",
+     "text": "89145054601"
+    },
+    " \n Телеграмм: ",
+    {
+     "type": "mention",
+     "text": "@semDmitry76"
+    },
+    " \n  \n Staff: ANTON \n CID: 356061 \n Invoice: ANT-04-876289 \n \n Sum JPY: 1255000 \n CAR PAYMENT FOR: Semin DV\n\n9.\n\nЗаявка: \n \n Tel: ",
+    {
+     "type": "phone",
+     "text": "89145054601"
+    },
+    " \n Телеграмм: ",
+    {
+     "type": "mention",
+     "text": "@semDmitry76"
+    },
+    " \n  \n Staff: ANTON \n CID: 356061 \n Invoice:  \n \nSum JPY: 250000 \n CAR PAYMENT FOR: Semin DV\n\n10.\n\nЗаявка: \n \n Tel: ",
+    {
+     "type": "phone",
+     "text": "89609846973"
+    },
+    " \n Телеграмм:  \n  \n Staff: NIKOLAY \n CID: 370216 \n Invoice: -60-872904 \n \n Sum JPY: 41000 \n CAR PAYMENT FOR: MOMENTUM R\n\n10-Заявок"
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "12.03.2024\n\n1.\n\nЗаявка: \n \n Tel: ±79139853549 \n Телеграмм:  \n  \n Staff: OLGA \n CID: 169 \n Invoice: Olg-04-878423 \n \nSum JPY: 613000 \n CAR PAYMENT FOR: Tverdun Dmitriy\n\n2.\n\nЗаявка: \n \n Tel:  79246712442 \n Телеграмм: "
+    },
+    {
+     "type": "mention",
+     "text": "@Motorist888"
+    },
+    {
+     "type": "plain",
+     "text": " \n  \n Staff: OLGA \n CID: 263328 \n Invoice:  \n \nSum JPY: 400000 \n CAR PAYMENT FOR: Kolesnikov Evgenii\n\n3.\n\nЗаявка: \n \n Tel:  79274538790 \n Телеграмм: "
+    },
+    {
+     "type": "mention",
+     "text": "@Ilgiz87"
+    },
+    {
+     "type": "plain",
+     "text": " \n  \n Staff: VASILII \n CID: 206954 \n Invoice: VAS-04-878669 \n \nSum JPY: 1479000 \nCAR PAYMENT FOR: Bilalov ILGIZ\n\n4.\n\nЗаявка: \n \n Tel: "
+    },
+    {
+     "type": "phone",
+     "text": "89147179546"
+    },
+    {
+     "type": "plain",
+     "text": " \n Телеграмм: "
+    },
+    {
+     "type": "mention",
+     "text": "@From_japan_with_love"
+    },
+    {
+     "type": "plain",
+     "text": " \n  \n Staff: EUGENE \n CID: 313480 \n Invoice: EUG-04-878953 \n \n Sum JPY: 444000 \n CAR PAYMENT FOR: Podkorytov I\n\n5.\n\nЗаявка: \n \n Tel:  7924 272-22-85 \n Телеграмм: "
+    },
+    {
+     "type": "mention",
+     "text": "@Avto_iz_Japan"
+    },
+    {
+     "type": "plain",
+     "text": " \n  \n Staff: OLGA \n CID: 334883 \n Invoice:  \n \n Sum JPY: 300000 \n CAR PAYMENT FOR: LEBEDEV I\n\n6.\n\nЗаявка: \n \n Tel: Martov ia \n Телеграмм: "
+    },
+    {
+     "type": "mention",
+     "text": "@ilyaMartAuto"
+    },
+    {
+     "type": "plain",
+     "text": " \n  \n Staff: ANTON \n CID: 333556 \n Invoice:  \n \nSum JPY: 1647000 \nCAR PAYMENT FOR: Martov is\n\n7.\n\nЗаявка: \n \n Tel:  79206907663 \n Телеграмм:  \n  \n Staff: VIKTORIA \n CID: 432032 \n Invoice: Vik-60878021 \n \n Sum JPY: 1071000 \n CAR PAYMENT FOR: Subbotin Maksim\n\n8.\n\nЗаявка: \n \n Tel: "
+    },
+    {
+     "type": "phone",
+     "text": "89145054601"
+    },
+    {
+     "type": "plain",
+     "text": " \n Телеграмм: "
+    },
+    {
+     "type": "mention",
+     "text": "@semDmitry76"
+    },
+    {
+     "type": "plain",
+     "text": " \n  \n Staff: ANTON \n CID: 356061 \n Invoice: ANT-04-876289 \n \n Sum JPY: 1255000 \n CAR PAYMENT FOR: Semin DV\n\n9.\n\nЗаявка: \n \n Tel: "
+    },
+    {
+     "type": "phone",
+     "text": "89145054601"
+    },
+    {
+     "type": "plain",
+     "text": " \n Телеграмм: "
+    },
+    {
+     "type": "mention",
+     "text": "@semDmitry76"
+    },
+    {
+     "type": "plain",
+     "text": " \n  \n Staff: ANTON \n CID: 356061 \n Invoice:  \n \nSum JPY: 250000 \n CAR PAYMENT FOR: Semin DV\n\n10.\n\nЗаявка: \n \n Tel: "
+    },
+    {
+     "type": "phone",
+     "text": "89609846973"
+    },
+    {
+     "type": "plain",
+     "text": " \n Телеграмм:  \n  \n Staff: NIKOLAY \n CID: 370216 \n Invoice: -60-872904 \n \n Sum JPY: 41000 \n CAR PAYMENT FOR: MOMENTUM R\n\n10-Заявок"
+    }
+   ]
+  },
+  {
+   "id": 62020,
+   "type": "message",
+   "date": "2024-03-18T06:31:50",
+   "date_unixtime": "1710721910",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "photo": "photos/photo_1807@18-03-2024_06-31-50.jpg",
+   "width": 590,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 62021,
+   "type": "message",
+   "date": "2024-03-18T06:31:50",
+   "date_unixtime": "1710721910",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "photo": "photos/photo_1808@18-03-2024_06-31-50.jpg",
+   "width": 590,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 62022,
+   "type": "message",
+   "date": "2024-03-18T06:31:50",
+   "date_unixtime": "1710721910",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "photo": "photos/photo_1809@18-03-2024_06-31-50.jpg",
+   "width": 573,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 62023,
+   "type": "message",
+   "date": "2024-03-18T06:31:50",
+   "date_unixtime": "1710721910",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "photo": "photos/photo_1810@18-03-2024_06-31-50.jpg",
+   "width": 591,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 62024,
+   "type": "message",
+   "date": "2024-03-18T06:31:50",
+   "date_unixtime": "1710721910",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "photo": "photos/photo_1811@18-03-2024_06-31-50.jpg",
+   "width": 590,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 62025,
+   "type": "message",
+   "date": "2024-03-18T06:31:50",
+   "date_unixtime": "1710721910",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "photo": "photos/photo_1812@18-03-2024_06-31-50.jpg",
+   "width": 590,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 62026,
+   "type": "message",
+   "date": "2024-03-18T06:31:50",
+   "date_unixtime": "1710721910",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "photo": "photos/photo_1813@18-03-2024_06-31-50.jpg",
+   "width": 640,
+   "height": 1136,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 62027,
+   "type": "message",
+   "date": "2024-03-18T06:31:50",
+   "date_unixtime": "1710721910",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "photo": "photos/photo_1814@18-03-2024_06-31-50.jpg",
+   "width": 590,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 62028,
+   "type": "message",
+   "date": "2024-03-18T06:31:50",
+   "date_unixtime": "1710721910",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "photo": "photos/photo_1815@18-03-2024_06-31-50.jpg",
+   "width": 590,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 62029,
+   "type": "message",
+   "date": "2024-03-18T06:31:50",
+   "date_unixtime": "1710721910",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "photo": "photos/photo_1816@18-03-2024_06-31-50.jpg",
+   "width": 590,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 62030,
+   "type": "message",
+   "date": "2024-03-18T06:31:51",
+   "date_unixtime": "1710721911",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "photo": "photos/photo_1817@18-03-2024_06-31-51.jpg",
+   "width": 591,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 62031,
+   "type": "message",
+   "date": "2024-03-18T06:31:51",
+   "date_unixtime": "1710721911",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "photo": "photos/photo_1818@18-03-2024_06-31-51.jpg",
+   "width": 591,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 62032,
+   "type": "message",
+   "date": "2024-03-18T06:34:34",
+   "date_unixtime": "1710722074",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "photo": "photos/photo_1819@18-03-2024_06-34-34.jpg",
+   "width": 1055,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 62033,
+   "type": "message",
+   "date": "2024-03-18T06:34:34",
+   "date_unixtime": "1710722074",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "photo": "photos/photo_1820@18-03-2024_06-34-34.jpg",
+   "width": 1170,
+   "height": 1262,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 62034,
+   "type": "message",
+   "date": "2024-03-18T06:48:34",
+   "date_unixtime": "1710722914",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "text": [
+    "13.03.2024\n\n1.\nЗаявка: \n \n Tel: ",
+    {
+     "type": "phone",
+     "text": "89069547395"
+    },
+    " \n Телеграмм: ",
+    {
+     "type": "mention",
+     "text": "@ViktorLis70"
+    },
+    " \n  \n Staff: OLGA \n CID: 402126 \n Invoice: OLG-04-877534 \n \n Sum JPY: 661000 \n CAR PAYMENT FOR: Lisimenko Viktor\n\n2.\n\nЗаявка: \n \n Tel:  79242383724 \n Телеграмм:  \n  \n Staff: OLENA \n CID: 433123 \n Invoice: OLE-04-878553 \n \n Sum JPY: 640,000\n CAR PAYMENT FOR: Shishchenko Aleksandr\n\n3.\n\nЗаявка: \n \n Tel: ",
+    {
+     "type": "phone",
+     "text": "89135367265"
+    },
+    " \n Телеграмм: ",
+    {
+     "type": "mention",
+     "text": "@Aleksmak73"
+    },
+    " \n  \n Staff: ANTON \n CID: 429718 \n Invoice: ANT-04-878806 \n \n Sum JPY: 182000 \nCAR PAYMENT FOR: Makarov A\n\n4.\n\nЗаявка: \n \n Tel: ",
+    {
+     "type": "phone",
+     "text": "89147179546"
+    },
+    " \n Телеграмм: ",
+    {
+     "type": "mention",
+     "text": "@From_japan_with_love"
+    },
+    " \n  \n Staff: EUGENE \n CID: 313480 \n Invoice: EUG-04-879040 \n \n Sum JPY: 615000 \nCAR PAYMENT FOR: Podkorytov I\n\n5.\n\nЗаявка: \n \n Tel:  79122175621 \n Телеграмм: ",
+    {
+     "type": "mention",
+     "text": "@Grihanchik01"
+    },
+    " \n  \n Staff: Deni \n CID: 431518 \n Invoice:  \n \n Sum JPY: 300000 \n CAR PAYMENT FOR: Ivanov Grigorii\n\n6.\n\nЗаявка: \n \n Tel: ",
+    {
+     "type": "phone",
+     "text": "89841533171"
+    },
+    " \n Телеграмм: ",
+    {
+     "type": "mention",
+     "text": "@vladimir_andreevich0"
+    },
+    " \n  \n Staff: ANTON \n CID: 317596 \n Invoice:  \n \nSum JPY: 596 500 \nCAR PAYMENT FOR: Bogomolov Vladimir\n\n7.\n\nЗаявка: \n \n Tel:  79055106837 \n Телеграмм: ",
+    {
+     "type": "mention",
+     "text": "@Sonick13"
+    },
+    " \n  \n Staff: MAKS \n CID: 339143 \n Invoice:  \n \n Sum JPY: 100000 \n CAR PAYMENT FOR: Dmitriev Aleksey Vital`evich\n\n8.\n\nЗаявка: \n \n Tel: ",
+    {
+     "type": "phone",
+     "text": "89039500307"
+    },
+    " \n Телеграмм:  \n  \n Staff: FRANCO \n CID: 360984 \n Invoice:  \n \nSum JPY: 400 000 \nCAR PAYMENT FOR: Zakhvatova T\n\n9.\n\nЗаявка: \n \n Tel:  79676200034 \n Телеграмм: ",
+    {
+     "type": "mention",
+     "text": "@Maxshady"
+    },
+    " \n  \n Staff: ANTON \n CID: 411866 \n Invoice:  \n \nSum JPY: 200000 \nCAR PAYMENT FOR: FEDOROV M\n\n9-Заявок"
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "13.03.2024\n\n1.\nЗаявка: \n \n Tel: "
+    },
+    {
+     "type": "phone",
+     "text": "89069547395"
+    },
+    {
+     "type": "plain",
+     "text": " \n Телеграмм: "
+    },
+    {
+     "type": "mention",
+     "text": "@ViktorLis70"
+    },
+    {
+     "type": "plain",
+     "text": " \n  \n Staff: OLGA \n CID: 402126 \n Invoice: OLG-04-877534 \n \n Sum JPY: 661000 \n CAR PAYMENT FOR: Lisimenko Viktor\n\n2.\n\nЗаявка: \n \n Tel:  79242383724 \n Телеграмм:  \n  \n Staff: OLENA \n CID: 433123 \n Invoice: OLE-04-878553 \n \n Sum JPY: 640,000\n CAR PAYMENT FOR: Shishchenko Aleksandr\n\n3.\n\nЗаявка: \n \n Tel: "
+    },
+    {
+     "type": "phone",
+     "text": "89135367265"
+    },
+    {
+     "type": "plain",
+     "text": " \n Телеграмм: "
+    },
+    {
+     "type": "mention",
+     "text": "@Aleksmak73"
+    },
+    {
+     "type": "plain",
+     "text": " \n  \n Staff: ANTON \n CID: 429718 \n Invoice: ANT-04-878806 \n \n Sum JPY: 182000 \nCAR PAYMENT FOR: Makarov A\n\n4.\n\nЗаявка: \n \n Tel: "
+    },
+    {
+     "type": "phone",
+     "text": "89147179546"
+    },
+    {
+     "type": "plain",
+     "text": " \n Телеграмм: "
+    },
+    {
+     "type": "mention",
+     "text": "@From_japan_with_love"
+    },
+    {
+     "type": "plain",
+     "text": " \n  \n Staff: EUGENE \n CID: 313480 \n Invoice: EUG-04-879040 \n \n Sum JPY: 615000 \nCAR PAYMENT FOR: Podkorytov I\n\n5.\n\nЗаявка: \n \n Tel:  79122175621 \n Телеграмм: "
+    },
+    {
+     "type": "mention",
+     "text": "@Grihanchik01"
+    },
+    {
+     "type": "plain",
+     "text": " \n  \n Staff: Deni \n CID: 431518 \n Invoice:  \n \n Sum JPY: 300000 \n CAR PAYMENT FOR: Ivanov Grigorii\n\n6.\n\nЗаявка: \n \n Tel: "
+    },
+    {
+     "type": "phone",
+     "text": "89841533171"
+    },
+    {
+     "type": "plain",
+     "text": " \n Телеграмм: "
+    },
+    {
+     "type": "mention",
+     "text": "@vladimir_andreevich0"
+    },
+    {
+     "type": "plain",
+     "text": " \n  \n Staff: ANTON \n CID: 317596 \n Invoice:  \n \nSum JPY: 596 500 \nCAR PAYMENT FOR: Bogomolov Vladimir\n\n7.\n\nЗаявка: \n \n Tel:  79055106837 \n Телеграмм: "
+    },
+    {
+     "type": "mention",
+     "text": "@Sonick13"
+    },
+    {
+     "type": "plain",
+     "text": " \n  \n Staff: MAKS \n CID: 339143 \n Invoice:  \n \n Sum JPY: 100000 \n CAR PAYMENT FOR: Dmitriev Aleksey Vital`evich\n\n8.\n\nЗаявка: \n \n Tel: "
+    },
+    {
+     "type": "phone",
+     "text": "89039500307"
+    },
+    {
+     "type": "plain",
+     "text": " \n Телеграмм:  \n  \n Staff: FRANCO \n CID: 360984 \n Invoice:  \n \nSum JPY: 400 000 \nCAR PAYMENT FOR: Zakhvatova T\n\n9.\n\nЗаявка: \n \n Tel:  79676200034 \n Телеграмм: "
+    },
+    {
+     "type": "mention",
+     "text": "@Maxshady"
+    },
+    {
+     "type": "plain",
+     "text": " \n  \n Staff: ANTON \n CID: 411866 \n Invoice:  \n \nSum JPY: 200000 \nCAR PAYMENT FOR: FEDOROV M\n\n9-Заявок"
+    }
+   ]
+  },
+  {
+   "id": 62035,
+   "type": "message",
+   "date": "2024-03-18T06:48:45",
+   "date_unixtime": "1710722925",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "photo": "photos/photo_1821@18-03-2024_06-48-45.jpg",
+   "width": 590,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 62036,
+   "type": "message",
+   "date": "2024-03-18T06:48:45",
+   "date_unixtime": "1710722925",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "photo": "photos/photo_1822@18-03-2024_06-48-45.jpg",
+   "width": 591,
+   "height": 1188,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 62037,
+   "type": "message",
+   "date": "2024-03-18T06:48:45",
+   "date_unixtime": "1710722925",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "photo": "photos/photo_1823@18-03-2024_06-48-45.jpg",
+   "width": 591,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 62038,
+   "type": "message",
+   "date": "2024-03-18T06:48:45",
+   "date_unixtime": "1710722925",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "photo": "photos/photo_1824@18-03-2024_06-48-45.jpg",
+   "width": 591,
+   "height": 1197,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 62039,
+   "type": "message",
+   "date": "2024-03-18T06:48:45",
+   "date_unixtime": "1710722925",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "photo": "photos/photo_1825@18-03-2024_06-48-45.jpg",
+   "width": 591,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 62040,
+   "type": "message",
+   "date": "2024-03-18T06:48:45",
+   "date_unixtime": "1710722925",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "photo": "photos/photo_1826@18-03-2024_06-48-45.jpg",
+   "width": 590,
+   "height": 1156,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 62041,
+   "type": "message",
+   "date": "2024-03-18T06:48:45",
+   "date_unixtime": "1710722925",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "photo": "photos/photo_1827@18-03-2024_06-48-45.jpg",
+   "width": 590,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 62042,
+   "type": "message",
+   "date": "2024-03-18T06:48:45",
+   "date_unixtime": "1710722925",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "photo": "photos/photo_1828@18-03-2024_06-48-45.jpg",
+   "width": 590,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 62043,
+   "type": "message",
+   "date": "2024-03-18T06:48:45",
+   "date_unixtime": "1710722925",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "photo": "photos/photo_1829@18-03-2024_06-48-45.jpg",
+   "width": 590,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 62044,
+   "type": "message",
+   "date": "2024-03-18T06:48:45",
+   "date_unixtime": "1710722925",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "photo": "photos/photo_1830@18-03-2024_06-48-45.jpg",
+   "width": 1065,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 62045,
+   "type": "message",
+   "date": "2024-03-18T06:48:46",
+   "date_unixtime": "1710722926",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "photo": "photos/photo_1831@18-03-2024_06-48-46.jpg",
+   "width": 591,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 62046,
+   "type": "message",
+   "date": "2024-03-18T07:00:49",
+   "date_unixtime": "1710723649",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "text": [
+    "14.03.2024\n\n1.\n\nЗаявка: \n \n Tel: ",
+    {
+     "type": "phone",
+     "text": "89140698830"
+    },
+    " \n Телеграмм: ",
+    {
+     "type": "mention",
+     "text": "@avtocollekcioner"
+    },
+    " \n  \n Staff: ANTON \n CID: CID 381814 \n Invoice: ANT-04-878749 \n \n Requisites: \n UFJ国内送金 \n 三菱UFJ銀行　横浜支店 \n 普通 4631365    \n (支店番号　480） \n  \n Sum JPY: 1922481 \n   \n CAR PAYMENT FOR: KAZACHENKO A\n\n2.\n\nЗаявка: \n \n Tel: ",
+    {
+     "type": "phone",
+     "text": "89628627282"
+    },
+    " \n Телеграмм: ",
+    {
+     "type": "mention",
+     "text": "@DNDVA"
+    },
+    " \n  \n Staff: ANTON \n CID: 417194 \n Invoice:  \n \n Requisites: \n UFJ国内送金 \n 三菱UFJ銀行　横浜支店 \n 普通 4631365    \n (支店番号　480） \n  \n Sum JPY: 300.000 \n   \n CAR PAYMENT FOR: Kuzin\n\n3.\n\nЗаявка: \n \n Tel: ",
+    {
+     "type": "phone",
+     "text": "89620655454"
+    },
+    " \n Телеграмм: ",
+    {
+     "type": "mention",
+     "text": "@sergun124"
+    },
+    " \n  \n Staff: OLGA \n CID: 400347 \n Invoice:  \n \n Requisites: \n UFJ国内送金 \n 三菱UFJ銀行　横浜支店 \n 普通 4631365    \n (支店番号　480） \n  \n Sum JPY: 100000 \n   \n CAR PAYMENT FOR: Sergei Goncharov\n\n4.\n\nЗаявка: \n \n Tel: ",
+    {
+     "type": "phone",
+     "text": "89992230796"
+    },
+    " \n Телеграмм: ",
+    {
+     "type": "mention",
+     "text": "@Stanleegoses"
+    },
+    " \n  \n Staff: VASILII \n CID: 322168 \n Invoice:  \n \n Requisites: \n UFJ国内送金 \n 三菱UFJ銀行　横浜支店 \n 普通 4631365    \n (支店番号　480） \n  \n Sum JPY: 849000 \n   \n CAR PAYMENT FOR: BAZAROV Stanislav\n\n5.\n\nЗаявка: \n \n Tel: ",
+    {
+     "type": "phone",
+     "text": "89147179546"
+    },
+    " \n Телеграмм: ",
+    {
+     "type": "mention",
+     "text": "@From_japan_with_love"
+    },
+    " \n  \n Staff: EUGENE \n CID: 313480 \n Invoice: EUG-04-879003 \n \n Requisites: \n UFJ国内送金 \n 三菱UFJ銀行　横浜支店 \n 普通 4631365    \n (支店番号　480） \n  \n Sum JPY: 829000 \n   \n CAR PAYMENT FOR: Podkorytov I\n\n6.\n\nЗаявка: \n \n Tel: ",
+    {
+     "type": "phone",
+     "text": "89039382811"
+    },
+    " \n Телеграмм: ",
+    {
+     "type": "mention",
+     "text": "@kos_135"
+    },
+    " \n  \n Staff: MAKS \n CID: 344431 \n Invoice:  \n \n Requisites: \n UFJ国内送金 \n 三菱UFJ銀行　横浜支店 \n 普通 4631365    \n (支店番号　480） \n  \n Sum JPY: 200000 \n   \n CAR PAYMENT FOR: Gerasimovich Konstantin\n\n7.\n\nЗаявка: \n \n Tel: ",
+    {
+     "type": "phone",
+     "text": "89177474455"
+    },
+    " \n Телеграмм:  \n  \n Staff: OLGA \n CID: 337246 \n Invoice:  \n \n Requisites: \n UFJ国内送金 \n 三菱UFJ銀行　横浜支店 \n 普通 4631365    \n (支店番号　480） \n  \n Sum JPY: 1200000 \n   \n CAR PAYMENT FOR: Foikin\n\n8.\n\nЗаявка: \n \n Tel: 79143236047 \n Телеграмм: ",
+    {
+     "type": "mention",
+     "text": "@nevergate"
+    },
+    " \n  \n Staff: INOUE \n CID: 253943 \n Invoice:  \n \n Requisites: \n UFJ国内送金 \n 三菱UFJ銀行　横浜支店 \n 普通 4631365    \n (支店番号　480） \n  \n Sum JPY: 100000 \n   \n CAR PAYMENT FOR: ADALI\n\n8-Заявок"
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "14.03.2024\n\n1.\n\nЗаявка: \n \n Tel: "
+    },
+    {
+     "type": "phone",
+     "text": "89140698830"
+    },
+    {
+     "type": "plain",
+     "text": " \n Телеграмм: "
+    },
+    {
+     "type": "mention",
+     "text": "@avtocollekcioner"
+    },
+    {
+     "type": "plain",
+     "text": " \n  \n Staff: ANTON \n CID: CID 381814 \n Invoice: ANT-04-878749 \n \n Requisites: \n UFJ国内送金 \n 三菱UFJ銀行　横浜支店 \n 普通 4631365    \n (支店番号　480） \n  \n Sum JPY: 1922481 \n   \n CAR PAYMENT FOR: KAZACHENKO A\n\n2.\n\nЗаявка: \n \n Tel: "
+    },
+    {
+     "type": "phone",
+     "text": "89628627282"
+    },
+    {
+     "type": "plain",
+     "text": " \n Телеграмм: "
+    },
+    {
+     "type": "mention",
+     "text": "@DNDVA"
+    },
+    {
+     "type": "plain",
+     "text": " \n  \n Staff: ANTON \n CID: 417194 \n Invoice:  \n \n Requisites: \n UFJ国内送金 \n 三菱UFJ銀行　横浜支店 \n 普通 4631365    \n (支店番号　480） \n  \n Sum JPY: 300.000 \n   \n CAR PAYMENT FOR: Kuzin\n\n3.\n\nЗаявка: \n \n Tel: "
+    },
+    {
+     "type": "phone",
+     "text": "89620655454"
+    },
+    {
+     "type": "plain",
+     "text": " \n Телеграмм: "
+    },
+    {
+     "type": "mention",
+     "text": "@sergun124"
+    },
+    {
+     "type": "plain",
+     "text": " \n  \n Staff: OLGA \n CID: 400347 \n Invoice:  \n \n Requisites: \n UFJ国内送金 \n 三菱UFJ銀行　横浜支店 \n 普通 4631365    \n (支店番号　480） \n  \n Sum JPY: 100000 \n   \n CAR PAYMENT FOR: Sergei Goncharov\n\n4.\n\nЗаявка: \n \n Tel: "
+    },
+    {
+     "type": "phone",
+     "text": "89992230796"
+    },
+    {
+     "type": "plain",
+     "text": " \n Телеграмм: "
+    },
+    {
+     "type": "mention",
+     "text": "@Stanleegoses"
+    },
+    {
+     "type": "plain",
+     "text": " \n  \n Staff: VASILII \n CID: 322168 \n Invoice:  \n \n Requisites: \n UFJ国内送金 \n 三菱UFJ銀行　横浜支店 \n 普通 4631365    \n (支店番号　480） \n  \n Sum JPY: 849000 \n   \n CAR PAYMENT FOR: BAZAROV Stanislav\n\n5.\n\nЗаявка: \n \n Tel: "
+    },
+    {
+     "type": "phone",
+     "text": "89147179546"
+    },
+    {
+     "type": "plain",
+     "text": " \n Телеграмм: "
+    },
+    {
+     "type": "mention",
+     "text": "@From_japan_with_love"
+    },
+    {
+     "type": "plain",
+     "text": " \n  \n Staff: EUGENE \n CID: 313480 \n Invoice: EUG-04-879003 \n \n Requisites: \n UFJ国内送金 \n 三菱UFJ銀行　横浜支店 \n 普通 4631365    \n (支店番号　480） \n  \n Sum JPY: 829000 \n   \n CAR PAYMENT FOR: Podkorytov I\n\n6.\n\nЗаявка: \n \n Tel: "
+    },
+    {
+     "type": "phone",
+     "text": "89039382811"
+    },
+    {
+     "type": "plain",
+     "text": " \n Телеграмм: "
+    },
+    {
+     "type": "mention",
+     "text": "@kos_135"
+    },
+    {
+     "type": "plain",
+     "text": " \n  \n Staff: MAKS \n CID: 344431 \n Invoice:  \n \n Requisites: \n UFJ国内送金 \n 三菱UFJ銀行　横浜支店 \n 普通 4631365    \n (支店番号　480） \n  \n Sum JPY: 200000 \n   \n CAR PAYMENT FOR: Gerasimovich Konstantin\n\n7.\n\nЗаявка: \n \n Tel: "
+    },
+    {
+     "type": "phone",
+     "text": "89177474455"
+    },
+    {
+     "type": "plain",
+     "text": " \n Телеграмм:  \n  \n Staff: OLGA \n CID: 337246 \n Invoice:  \n \n Requisites: \n UFJ国内送金 \n 三菱UFJ銀行　横浜支店 \n 普通 4631365    \n (支店番号　480） \n  \n Sum JPY: 1200000 \n   \n CAR PAYMENT FOR: Foikin\n\n8.\n\nЗаявка: \n \n Tel: 79143236047 \n Телеграмм: "
+    },
+    {
+     "type": "mention",
+     "text": "@nevergate"
+    },
+    {
+     "type": "plain",
+     "text": " \n  \n Staff: INOUE \n CID: 253943 \n Invoice:  \n \n Requisites: \n UFJ国内送金 \n 三菱UFJ銀行　横浜支店 \n 普通 4631365    \n (支店番号　480） \n  \n Sum JPY: 100000 \n   \n CAR PAYMENT FOR: ADALI\n\n8-Заявок"
+    }
+   ]
+  },
+  {
+   "id": 62047,
+   "type": "message",
+   "date": "2024-03-18T07:00:57",
+   "date_unixtime": "1710723657",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "photo": "photos/photo_1832@18-03-2024_07-00-57.jpg",
+   "width": 1170,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 62048,
+   "type": "message",
+   "date": "2024-03-18T07:00:57",
+   "date_unixtime": "1710723657",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "photo": "photos/photo_1833@18-03-2024_07-00-57.jpg",
+   "width": 591,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 62049,
+   "type": "message",
+   "date": "2024-03-18T07:00:57",
+   "date_unixtime": "1710723657",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "photo": "photos/photo_1834@18-03-2024_07-00-57.jpg",
+   "width": 591,
+   "height": 1220,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 62050,
+   "type": "message",
+   "date": "2024-03-18T07:00:57",
+   "date_unixtime": "1710723657",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "photo": "photos/photo_1835@18-03-2024_07-00-57.jpg",
+   "width": 590,
+   "height": 1176,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 62051,
+   "type": "message",
+   "date": "2024-03-18T07:00:57",
+   "date_unixtime": "1710723657",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "photo": "photos/photo_1836@18-03-2024_07-00-57.jpg",
+   "width": 576,
+   "height": 1134,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 62052,
+   "type": "message",
+   "date": "2024-03-18T07:00:57",
+   "date_unixtime": "1710723657",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "photo": "photos/photo_1837@18-03-2024_07-00-57.jpg",
+   "width": 469,
+   "height": 1122,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 62053,
+   "type": "message",
+   "date": "2024-03-18T07:00:57",
+   "date_unixtime": "1710723657",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "photo": "photos/photo_1838@18-03-2024_07-00-57.jpg",
+   "width": 591,
+   "height": 1214,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 62054,
+   "type": "message",
+   "date": "2024-03-18T07:00:57",
+   "date_unixtime": "1710723657",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "photo": "photos/photo_1839@18-03-2024_07-00-57.jpg",
+   "width": 591,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 62055,
+   "type": "message",
+   "date": "2024-03-18T07:00:57",
+   "date_unixtime": "1710723657",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "photo": "photos/photo_1840@18-03-2024_07-00-57.jpg",
+   "width": 590,
+   "height": 1206,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 62056,
+   "type": "message",
+   "date": "2024-03-18T07:18:58",
+   "date_unixtime": "1710724738",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "text": [
+    "15.03.2024\n\n1.\n\nЗаявка: \n \n Tel: ",
+    {
+     "type": "phone",
+     "text": "89834205700"
+    },
+    " \n Телеграмм:  \n  \n Staff: EUGENE \n CID: 202345 \n Invoice:  \n \nSum JPY: 200000 \nCAR PAYMENT FOR: Bykov Evgeny\n\n2.\n\nЗаявка: \n \n Tel:  79244192858 \n Телеграмм:  \n  \n Staff: VASILII \n CID: 295990 \n Invoice:  \n \nSum JPY: 100000 \n CAR PAYMENT FOR: LAZAREV VITALII\n\n3.\n\nЗаявка: \n \n Tel:  79644210021 \n Телеграмм:  \n  \n Staff: ROMAN \n CID: 365475 Vasiliy Anisimov \n Invoice: ROM-60-877400 \n \nSum JPY: 562000 \nCAR PAYMENT FOR: Anisimov Vasiliy\n\n4.\n\nЗаявка: \n \n Tel: ",
+    {
+     "type": "phone",
+     "text": "89177474455"
+    },
+    " \n Телеграмм:  \n  \n Staff: OLGA \n CID: 337246 \n Invoice:  \n \nSum JPY: 790000 \nCAR PAYMENT FOR: Foikin\n\n5.\n\nЗаявка: \n \n Tel: ",
+    {
+     "type": "phone",
+     "text": "89502920777"
+    },
+    " \n Телеграмм: ",
+    {
+     "type": "mention",
+     "text": "@vladivostok_pavel"
+    },
+    " \n  \n Staff: Inoue \n CID: 339698 \n Invoice: Ino-872553 \n \nSum JPY: 45000 \nCAR PAYMENT FOR: Blagulak\n\n6.\n\nЗаявка: \n \n Tel:  79147076422 \n Телеграмм:  \n  \n Staff: TIMUR \n CID: id 365305 \n Invoice:  \n \n Sum JPY: 100000 \n CAR PAYMENT FOR: Solyak A\n\n7.\n\nЗаявка: \n \n Tel: ",
+    {
+     "type": "phone",
+     "text": "89500902090"
+    },
+    " \n Телеграмм: ",
+    {
+     "type": "mention",
+     "text": "@Sharap1411"
+    },
+    " \n  \n Staff: OLGA \n CID: 417894 \n Invoice:  \n \n Sum JPY: 1197500 \n CAR PAYMENT FOR: Asharapov Aleksandr\n\n8.\n\nЗаявка: \n \n Tel: ",
+    {
+     "type": "phone",
+     "text": "89231859525"
+    },
+    " \n Телеграмм:  \n  \n Staff: ANTON \n CID: CID 396278 \n Invoice:  \n \n Sum JPY: 100000 \n CAR PAYMENT FOR: Nazarov V\n\n9.\n\nЗаявка: \n \n Tel: ",
+    {
+     "type": "phone",
+     "text": "89231204300"
+    },
+    " \n Телеграмм:  \n  \n Staff: ANTON \n CID: 368079 \n Invoice:  \n \nSum JPY: 100,000\nCAR PAYMENT FOR: MOISEEV S\n\n10.\n\nЗаявка: \n \n Tel: ",
+    {
+     "type": "phone",
+     "text": "89039500307"
+    },
+    " \n Телеграмм:  \n  \n Staff: FRANCO \n CID: 360984 \n Invoice:  \n \n Sum JPY: 350,000\n CAR PAYMENT FOR: Zakhvatova T\n\n11.\n\nЗаявка: \n \n Tel: 79143236047 \n Телеграмм: ",
+    {
+     "type": "mention",
+     "text": "@nevergate"
+    },
+    " \n  \n Staff: INOUE \n CID: 253943 \n Invoice:  \n \n Sum JPY: 141814 \n СAR PAYMENT FOR: ADALI\n\nЗаявок-11"
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "15.03.2024\n\n1.\n\nЗаявка: \n \n Tel: "
+    },
+    {
+     "type": "phone",
+     "text": "89834205700"
+    },
+    {
+     "type": "plain",
+     "text": " \n Телеграмм:  \n  \n Staff: EUGENE \n CID: 202345 \n Invoice:  \n \nSum JPY: 200000 \nCAR PAYMENT FOR: Bykov Evgeny\n\n2.\n\nЗаявка: \n \n Tel:  79244192858 \n Телеграмм:  \n  \n Staff: VASILII \n CID: 295990 \n Invoice:  \n \nSum JPY: 100000 \n CAR PAYMENT FOR: LAZAREV VITALII\n\n3.\n\nЗаявка: \n \n Tel:  79644210021 \n Телеграмм:  \n  \n Staff: ROMAN \n CID: 365475 Vasiliy Anisimov \n Invoice: ROM-60-877400 \n \nSum JPY: 562000 \nCAR PAYMENT FOR: Anisimov Vasiliy\n\n4.\n\nЗаявка: \n \n Tel: "
+    },
+    {
+     "type": "phone",
+     "text": "89177474455"
+    },
+    {
+     "type": "plain",
+     "text": " \n Телеграмм:  \n  \n Staff: OLGA \n CID: 337246 \n Invoice:  \n \nSum JPY: 790000 \nCAR PAYMENT FOR: Foikin\n\n5.\n\nЗаявка: \n \n Tel: "
+    },
+    {
+     "type": "phone",
+     "text": "89502920777"
+    },
+    {
+     "type": "plain",
+     "text": " \n Телеграмм: "
+    },
+    {
+     "type": "mention",
+     "text": "@vladivostok_pavel"
+    },
+    {
+     "type": "plain",
+     "text": " \n  \n Staff: Inoue \n CID: 339698 \n Invoice: Ino-872553 \n \nSum JPY: 45000 \nCAR PAYMENT FOR: Blagulak\n\n6.\n\nЗаявка: \n \n Tel:  79147076422 \n Телеграмм:  \n  \n Staff: TIMUR \n CID: id 365305 \n Invoice:  \n \n Sum JPY: 100000 \n CAR PAYMENT FOR: Solyak A\n\n7.\n\nЗаявка: \n \n Tel: "
+    },
+    {
+     "type": "phone",
+     "text": "89500902090"
+    },
+    {
+     "type": "plain",
+     "text": " \n Телеграмм: "
+    },
+    {
+     "type": "mention",
+     "text": "@Sharap1411"
+    },
+    {
+     "type": "plain",
+     "text": " \n  \n Staff: OLGA \n CID: 417894 \n Invoice:  \n \n Sum JPY: 1197500 \n CAR PAYMENT FOR: Asharapov Aleksandr\n\n8.\n\nЗаявка: \n \n Tel: "
+    },
+    {
+     "type": "phone",
+     "text": "89231859525"
+    },
+    {
+     "type": "plain",
+     "text": " \n Телеграмм:  \n  \n Staff: ANTON \n CID: CID 396278 \n Invoice:  \n \n Sum JPY: 100000 \n CAR PAYMENT FOR: Nazarov V\n\n9.\n\nЗаявка: \n \n Tel: "
+    },
+    {
+     "type": "phone",
+     "text": "89231204300"
+    },
+    {
+     "type": "plain",
+     "text": " \n Телеграмм:  \n  \n Staff: ANTON \n CID: 368079 \n Invoice:  \n \nSum JPY: 100,000\nCAR PAYMENT FOR: MOISEEV S\n\n10.\n\nЗаявка: \n \n Tel: "
+    },
+    {
+     "type": "phone",
+     "text": "89039500307"
+    },
+    {
+     "type": "plain",
+     "text": " \n Телеграмм:  \n  \n Staff: FRANCO \n CID: 360984 \n Invoice:  \n \n Sum JPY: 350,000\n CAR PAYMENT FOR: Zakhvatova T\n\n11.\n\nЗаявка: \n \n Tel: 79143236047 \n Телеграмм: "
+    },
+    {
+     "type": "mention",
+     "text": "@nevergate"
+    },
+    {
+     "type": "plain",
+     "text": " \n  \n Staff: INOUE \n CID: 253943 \n Invoice:  \n \n Sum JPY: 141814 \n СAR PAYMENT FOR: ADALI\n\nЗаявок-11"
+    }
+   ]
+  },
+  {
+   "id": 62057,
+   "type": "message",
+   "date": "2024-03-18T07:23:35",
+   "date_unixtime": "1710725015",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "photo": "photos/photo_1841@18-03-2024_07-23-35.jpg",
+   "width": 1099,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 62058,
+   "type": "message",
+   "date": "2024-03-18T07:23:35",
+   "date_unixtime": "1710725015",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "photo": "photos/photo_1842@18-03-2024_07-23-35.jpg",
+   "width": 590,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 62059,
+   "type": "message",
+   "date": "2024-03-18T07:23:35",
+   "date_unixtime": "1710725015",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "photo": "photos/photo_1843@18-03-2024_07-23-35.jpg",
+   "width": 590,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 62060,
+   "type": "message",
+   "date": "2024-03-18T07:23:35",
+   "date_unixtime": "1710725015",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "photo": "photos/photo_1844@18-03-2024_07-23-35.jpg",
+   "width": 590,
+   "height": 1184,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 62061,
+   "type": "message",
+   "date": "2024-03-18T07:23:35",
+   "date_unixtime": "1710725015",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "photo": "photos/photo_1845@18-03-2024_07-23-35.jpg",
+   "width": 591,
+   "height": 1174,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 62062,
+   "type": "message",
+   "date": "2024-03-18T07:23:35",
+   "date_unixtime": "1710725015",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "photo": "photos/photo_1846@18-03-2024_07-23-35.jpg",
+   "width": 590,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 62063,
+   "type": "message",
+   "date": "2024-03-18T07:23:35",
+   "date_unixtime": "1710725015",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "photo": "photos/photo_1847@18-03-2024_07-23-35.jpg",
+   "width": 589,
+   "height": 1193,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 62064,
+   "type": "message",
+   "date": "2024-03-18T07:23:35",
+   "date_unixtime": "1710725015",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "photo": "photos/photo_1848@18-03-2024_07-23-35.jpg",
+   "width": 590,
+   "height": 1180,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 62065,
+   "type": "message",
+   "date": "2024-03-18T07:23:35",
+   "date_unixtime": "1710725015",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "photo": "photos/photo_1849@18-03-2024_07-23-35.jpg",
+   "width": 576,
+   "height": 1234,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 62066,
+   "type": "message",
+   "date": "2024-03-18T07:23:35",
+   "date_unixtime": "1710725015",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "photo": "photos/photo_1850@18-03-2024_07-23-35.jpg",
+   "width": 591,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 62067,
+   "type": "message",
+   "date": "2024-03-18T07:23:37",
+   "date_unixtime": "1710725017",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "photo": "photos/photo_1851@18-03-2024_07-23-37.jpg",
+   "width": 591,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 62068,
+   "type": "message",
+   "date": "2024-03-18T07:23:37",
+   "date_unixtime": "1710725017",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "photo": "photos/photo_1852@18-03-2024_07-23-37.jpg",
+   "width": 591,
+   "height": 1194,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 62069,
+   "type": "message",
+   "date": "2024-03-18T07:23:37",
+   "date_unixtime": "1710725017",
+   "from": "MF2Support",
+   "from_id": "user6659950937",
+   "photo": "photos/photo_1853@18-03-2024_07-23-37.jpg",
+   "width": 591,
+   "height": 1219,
+   "text": "",
+   "text_entities": []
+  }
+ ]
+}
