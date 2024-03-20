@@ -17,36 +17,69 @@ import {
   TreeSelect,
   Upload,
 } from 'antd';
+import { v4 as uuidv4 } from 'uuid';
+
 const { RangePicker } = DatePicker;
 const { TextArea } = Input;
-const normFile = (e) => {
-  console.log(e);
 
-  if (Array.isArray(e)) {
-    return e;
-  }
-  return e?.fileList;
-};
+
+
 const FormAdd = () => {
   const [detailText, setDetailText] = useState('');
-  const [detailPicture, setDetailPicture] = useState('');
+  const [fileList, setFileList] = useState([]);
 
+  const encodeFileToBase64 = (fileBlob) => {
+    return new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.readAsDataURL(fileBlob);
+      reader.onload = () => resolve(reader.result.split(',')[1]); // Удаляем префикс data:*/*;base64, для чистого base64 содержимого
+      reader.onerror = error => reject(error);
+    });
+  };
+
+  const handleChange = ({ fileList: newFileList }) => {
+    setFileList(newFileList);
+  };
 
   const handleSubmit = async () => {
-    var params = {
-      'IBLOCK_TYPE_ID': 'lists',
-      'IBLOCK_ID': '335',
-      'ELEMENT_CODE': 'element_1',
-      'FIELDS': {
-        'NAME': 'task for test',
-        'DETAIL_TEXT': detailText,
-        "PROPERTY_1411": detailPicture,
-      }
-    };
+    if (fileList.length > 0) {
+      const elementCode = uuidv4();
+      
+      try {
+        const base64File = await encodeFileToBase64(fileList[0].originFileObj);
+        const uploadResult = await BX24API.callMethod('disk.folder.uploadfile', {
+          id: '207717', // Укажите ID вашей папки
+          data: {
+            NAME: fileList[0].name,
+          },
+          fileContent: base64File,
+        });
 
-    const result = await BX24API.callMethod('lists.element.add', params);
-    console.log(result);
+        if (uploadResult && uploadResult.result) {
+     
+          const fileId = uploadResult.result.ID; 
+console.log(fileId);
+
+          const params = {
+            'IBLOCK_TYPE_ID': 'lists',
+            'IBLOCK_ID': '335',
+            'ELEMENT_CODE': elementCode,
+            'FIELDS': {
+              'NAME': 'task for test',
+              'DETAIL_TEXT': detailText,
+              "PROPERTY_1411": fileId,
+            }
+          };
+
+          const result = await BX24API.callMethod('lists.element.add', params);
+          console.log(result);
+        }
+      } catch (error) {
+        console.error('Ошибка при загрузке файла или добавлении элемента', error);
+      }
+    }
   };
+
   return (
     <>
       
@@ -87,48 +120,27 @@ const FormAdd = () => {
         </Form.Item>
         <Form.Item label="TextArea">
           <TextArea rows={4} value={detailText} onChange={e => setDetailText(e.target.value)} />
-        </Form.Item>
-        <Form.Item label="Switch" valuePropName="checked">
-          <Switch />
-        </Form.Item>
-        <Form.Item label="Upload" valuePropName="fileList" getValueFromEvent={setDetailPicture}>
-          <Upload  listType="picture-card">
-            <button
-              style={{
-                border: 0,
-                background: 'none',
-              }}
-              type="button"
-            >
-              <PlusOutlined />
-              <div
-                style={{
-                  marginTop: 8,
-                }}
-              >
-                Upload
+          </Form.Item>
+        <Form.Item label="Upload" valuePropName="fileList">
+          <Upload
+            listType="picture-card"
+            fileList={fileList}
+            onChange={handleChange}
+            beforeUpload={() => false} // Возвращаем false, чтобы предотвратить автоматическую загрузку
+          >
+            {fileList.length < 1 && (
+              <div>
+                <PlusOutlined />
+                <div style={{ marginTop: 8 }}>Upload</div>
               </div>
-            </button>
+            )}
           </Upload>
         </Form.Item>
-
-        {/* <Form.Item
-        name="upload"
-        label="Upload"
-        valuePropName="fileList"
-        getValueFromEvent={normFile}
-      >
-        <Upload name="logo" action="/upload.do" listType="picture">
-          <Button icon={<PlusOutlined />}>Click to upload</Button>
-        </Upload>
-      </Form.Item> */}
-        
-
-    <Form.Item wrapperCol={{ offset: 6, span: 16 }}>
-      <Button type="primary" htmlType="submit">
-        Submit
-      </Button>
-    </Form.Item>
+        <Form.Item wrapperCol={{ offset: 6, span: 16 }}>
+          <Button type="primary" htmlType="submit">
+            Submit
+          </Button>
+        </Form.Item>
       </Form>
     </>
   );
