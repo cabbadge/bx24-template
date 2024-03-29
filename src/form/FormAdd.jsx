@@ -27,39 +27,70 @@ const { TextArea } = Input;
 const FormAdd = () => {
   const [detailText, setDetailText] = useState('');
   const [fileList, setFileList] = useState([]);
+  const [selectedDate, setSelectedDate] = useState(null);
 
   const encodeFileToBase64 = (fileBlob) => {
     return new Promise((resolve, reject) => {
       const reader = new FileReader();
       reader.readAsDataURL(fileBlob);
-      reader.onload = () => resolve(reader.result.split(',')[1]); // Удаляем префикс data:*/*;base64, для чистого base64 содержимого
+      reader.onload = () => {
+        const base64Content = reader.result.split(',')[1];
+        resolve(base64Content);
+      };
       reader.onerror = error => reject(error);
     });
   };
+  
 
   const handleChange = ({ fileList: newFileList }) => {
-    setFileList(newFileList);
+    // Обновляем состояние fileList новым списком файлов
+    setFileList(newFileList.map(file => ({
+      ...file,
+      // Проверяем, существует ли объект file.originFileObj и является ли он типом File
+      originFileObj: file.originFileObj instanceof File ? file.originFileObj : undefined
+    })));
+  };
+  
+
+  const handleDateChange = (date, dateString) => {
+    setSelectedDate(dateString); // Сохраняем выбранную дату в состоянии
+    
   };
 
   const handleSubmit = async () => {
-    if (fileList.length > 0) {
+    if (!selectedDate) {
+      alert('Пожалуйста, выберите дату.');
+      return;
+    }
+
       const elementCode = uuidv4();
-      
+      if (fileList.length > 0) {
+        const fileToBeUploaded = fileList[0].originFileObj;
+    
+        
       try {
-        const base64File = await encodeFileToBase64(fileList[0].originFileObj);
+        
+        const base64File = await encodeFileToBase64(fileToBeUploaded);
+      console.log(base64File); 
         const uploadResult = await BX24API.callMethod('disk.folder.uploadfile', {
-          id: '207717', // Укажите ID вашей папки
+          id: '207717', 
           data: {
             NAME: fileList[0].name,
           },
           fileContent: base64File,
+          generateUniqueName: true,
+          
         });
+
+
 
         if (uploadResult && uploadResult.result) {
      
           const fileId = uploadResult.result.ID; 
 console.log(fileId);
 
+
+console.log(selectedDate);
           const params = {
             'IBLOCK_TYPE_ID': 'lists',
             'IBLOCK_ID': '335',
@@ -68,6 +99,7 @@ console.log(fileId);
               'NAME': 'task for test',
               'DETAIL_TEXT': detailText,
               "PROPERTY_1411": fileId,
+              "PROPERTY_1413":selectedDate
             }
           };
 
@@ -110,8 +142,8 @@ console.log(fileId);
         </Form.Item>
         
         <Form.Item label="DatePicker">
-          <DatePicker />
-        </Form.Item>
+          <DatePicker onChange={handleDateChange}/>
+        </Form.Item> 
         <Form.Item label="RangePicker">
           <RangePicker />
         </Form.Item>
@@ -122,19 +154,20 @@ console.log(fileId);
           <TextArea rows={4} value={detailText} onChange={e => setDetailText(e.target.value)} />
           </Form.Item>
         <Form.Item label="Upload" valuePropName="fileList">
-          <Upload
-            listType="picture-card"
-            fileList={fileList}
-            onChange={handleChange}
-            beforeUpload={() => false} // Возвращаем false, чтобы предотвратить автоматическую загрузку
-          >
-            {fileList.length < 1 && (
-              <div>
-                <PlusOutlined />
-                <div style={{ marginTop: 8 }}>Upload</div>
-              </div>
-            )}
-          </Upload>
+        <Upload
+  listType="picture-card"
+  fileList={fileList}
+  onChange={handleChange}
+  beforeUpload={() => false} // Возвращаем false, чтобы предотвратить автоматическую загрузку
+>
+  {fileList.length < 1 && (
+    <div>
+      <PlusOutlined />
+      <div style={{ marginTop: 8 }}>Upload</div>
+    </div>
+  )}
+</Upload>
+
         </Form.Item>
         <Form.Item wrapperCol={{ offset: 6, span: 16 }}>
           <Button type="primary" htmlType="submit">

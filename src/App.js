@@ -11,6 +11,7 @@ const App = () => {
       <FormAdd/>
       {/* Передаем detailText как prop в AddTask */}
       {/* <AddTask detailText={detailText} /> */}
+      
     </div>
   );
 };
