@@ -61,11 +61,13 @@ const items = [
     icon: <SettingOutlined />,
   },
 ];
-const  Header  = () => {
+const  Header  = ({ setCurrentMenu }) => {
   const [current, setCurrent] = useState('registration');
   const onClick = (e) => {
     console.log('click ', e);
     setCurrent(e.key);
+    setCurrentMenu(e.key); 
+    console.log(`setCurrentMenu ${e.key}`);
   };
   return <Menu onClick={onClick} selectedKeys={[current]} mode="horizontal" items={items} />;
 };

@@ -1,16 +1,14 @@
 import React, { useState } from 'react';
 import { AddTask } from './AddTask';
-import Demo from './menu/Header';
+import Header from './menu/Header';
 import FormAdd from './form/FormAdd';
 
 const App = () => {
-
+  const [currentMenu, setCurrentMenu] = useState('incoming');
   return (
     <div>
-      <Demo />
-      <FormAdd/>
-      {/* Передаем detailText как prop в AddTask */}
-      {/* <AddTask detailText={detailText} /> */}
+      <Header setCurrentMenu={setCurrentMenu} />
+      <FormAdd currentMenu={currentMenu} />
       
     </div>
   );

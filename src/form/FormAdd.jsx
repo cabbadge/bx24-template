@@ -24,7 +24,7 @@ const { TextArea } = Input;
 
 
 
-const FormAdd = () => {
+const FormAdd = ({ currentMenu }) => {
   const [detailText, setDetailText] = useState('');
   const [fileList, setFileList] = useState([]);
   const [selectedDate, setSelectedDate] = useState(null);
@@ -43,7 +43,6 @@ const FormAdd = () => {
   
 
   const handleChange = ({ fileList: newFileList }) => {
-    // Обновляем состояние fileList новым списком файлов
     setFileList(newFileList.map(file => ({
       ...file,
       // Проверяем, существует ли объект file.originFileObj и является ли он типом File
@@ -53,25 +52,37 @@ const FormAdd = () => {
   
 
   const handleDateChange = (date, dateString) => {
-    setSelectedDate(dateString); // Сохраняем выбранную дату в состоянии
+    setSelectedDate(dateString); 
     
   };
-
+  console.log(currentMenu);
   const handleSubmit = async () => {
-    if (!selectedDate) {
-      alert('Пожалуйста, выберите дату.');
-      return;
+    const elementCode = uuidv4(); // Генерируем уникальный код элемента
+  
+    let iblockSectionId = ''; // Значение по умолчанию
+    if (currentMenu === 'incoming') {
+      iblockSectionId = '611';
+    } else if (currentMenu === 'outgoing') {
+      iblockSectionId = '613';
     }
-
-      const elementCode = uuidv4();
-      if (fileList.length > 0) {
-        const fileToBeUploaded = fileList[0].originFileObj;
     
-        
+    let params = {
+      'IBLOCK_TYPE_ID': 'lists',
+      'IBLOCK_ID': '335',
+      'ELEMENT_CODE': elementCode,
+      'FIELDS': {
+        'IBLOCK_SECTION_ID': iblockSectionId,
+        'NAME': 'task for test',
+        'DETAIL_TEXT': detailText,
+        "PROPERTY_1413": selectedDate,
+      }
+    };
+  
+    if (fileList.length > 0) {
+      const fileToBeUploaded = fileList[0].originFileObj;
       try {
-        
         const base64File = await encodeFileToBase64(fileToBeUploaded);
-      console.log(base64File); 
+        // console.log(base64File);
         const uploadResult = await BX24API.callMethod('disk.folder.uploadfile', {
           id: '207717', 
           data: {
@@ -79,38 +90,27 @@ const FormAdd = () => {
           },
           fileContent: base64File,
           generateUniqueName: true,
-          
         });
-
-
-
+  
         if (uploadResult && uploadResult.result) {
-     
-          const fileId = uploadResult.result.ID; 
-console.log(fileId);
-
-
-console.log(selectedDate);
-          const params = {
-            'IBLOCK_TYPE_ID': 'lists',
-            'IBLOCK_ID': '335',
-            'ELEMENT_CODE': elementCode,
-            'FIELDS': {
-              'NAME': 'task for test',
-              'DETAIL_TEXT': detailText,
-              "PROPERTY_1411": fileId,
-              "PROPERTY_1413":selectedDate
-            }
-          };
-
-          const result = await BX24API.callMethod('lists.element.add', params);
-          console.log(result);
+          const fileId = uploadResult.result.ID;
+          console.log(fileId);
+          params.FIELDS["PROPERTY_1411"] = fileId;
         }
       } catch (error) {
         console.error('Ошибка при загрузке файла или добавлении элемента', error);
+        return; 
       }
     }
+
+    try {
+      const result = await BX24API.callMethod('lists.element.add', params);
+      console.log(result);
+    } catch (error) {
+      console.error('Ошибка при добавлении элемента', error);
+    }
   };
+  
 
   return (
     <>
@@ -178,4 +178,4 @@ console.log(selectedDate);
     </>
   );
 };
-export default () => <FormAdd />;
+export default FormAdd;
